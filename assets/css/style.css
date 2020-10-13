@@ -21,9 +21,6 @@ body {
 }
 
 
-/* Navbar */
-
-
 /*Image Carousel*/
 
 .carousel-caption {
@@ -37,8 +34,6 @@ body {
 .carousel-caption h1 {
     text-shadow: 5px 5px 5px #343a40;
 }
-
-/*About*/
 
 
 /*Memberships*/
@@ -58,19 +53,11 @@ body {
 
 /*Classes*/
 
-
 .workout-class img {
     border-radius: 50%;
     width: 60%;
     height: auto;
     
-}
-
-/*Contact*/
-
-.contact {
-    width: 100%%;
-    margin: 0 auto;
 }
 
 
@@ -79,9 +66,10 @@ body {
 .googlemap {
     width: 100%;
     margin-bottom: 80px;
-    padding: 30px;
+    padding: 70px;
 
 }
+
 
 /*Join*/
 
@@ -92,15 +80,14 @@ section {
     border: 1px solid green;
     padding: 30px;
 }
-/*Payment*/
 
+/*Payment*/
 
 .submit-button {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
 }
-
 
 
 /*Footer*/
@@ -122,6 +109,7 @@ hr.line {
     width: 50%;
 
 }
+
 
 /*Submit*/
 

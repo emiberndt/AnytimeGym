@@ -15,11 +15,10 @@ A live website can be found [here]()
 
 
 # Table of Contents
-- [UX](#ux)
-  * [The Strategy](#the-strategy)
-  * [The Structure](#the-structure)
-  * [The Skeleton](#the-skeleton)
-  * [The Surface](#the-surface)
+- [The Strategy](#the-strategy)
+- [The Structure](#the-structure)
+- [The Skeleton](#the-skeleton)
+- [The Surface](#the-surface)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Testing](#testing)
@@ -27,20 +26,14 @@ A live website can be found [here]()
 - [Credits](#credits)
 
 
-# UX
-
-Throughout the development of Anytime Gym I ensured that I kept the user in mind and ensuring the website is:
-
-- Useful: useful to the user who wants to interact with the product.
-- Useable: when interacting with the product, it is a positive experience.
-- Valuable: valuable to the site user and the site owner. 
 
 
-## The Strategy
 
-### Project goal: Recruit member to the Anytime Gym
+# The Strategy
 
-The main goal for the website is to get noticed from its targeted users. Its users are people interested in joning a gym that is open 24/7.
+### Project goal: Recruit members to the Anytime Gym
+
+The main goal for the website is to get noticed from its targeted users. Its users are people interested in joining a gym that is open 24/7.
 
 #### User goals:
 - Users will get a positive and inspiring impression from the landing page.
@@ -77,14 +70,14 @@ For the site user
 - I want to get a full view of what gym classes the gym provides and a detailed information of what the classes entails, and what time they are available. 
 - I want to be able to navigate through the site quick and easy.
 
-## The Structure
+# The Structure
 
 - The elements should all be consistent, in terms of effects, colors, icons and buttons. 
 - Horizontal navbar, with the gym’s logo displayed on the left and link back to the landing page. 
 - The navbar for the mobile site version, will have the hamburger icon.
 - Links to the gym’s social media channels will be in the footer.
 
-## The Skeleton
+# The Skeleton
 
 The wireframes are created with [Balsamiq](https://balsamiq.com/).
 
@@ -95,7 +88,7 @@ Links to view the wireframes:
 You will see differences to the finished website. As I went on to developed the site 
 there were certain aspects I thought I could improve from the original idea, to make it more in sync with my user stories.
 
-## The Surface 
+# The Surface 
 
 ### Colors 
 
@@ -170,7 +163,7 @@ On each image-slide there is also a button for the user to click to be able to s
 - Button to redirect you back to the website.
 
 
-## Technologies
+# Technologies
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
   - used to structure the website and create the elements for the website. 
