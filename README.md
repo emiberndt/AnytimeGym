@@ -9,9 +9,9 @@ Welcome to the Anytime Gym website!
 
 A HTML5, CSS3 & Bootstrap website.
 
-A live website can be found [here]()
+A live website can be found [here](https://emiberndt.github.io/User-Centric-Frontend-Project---AnytimeGym/)
 
-!Mockup of website!
+![Mockup](/assets/images/mockup.png)
 
 
 # Table of Contents
@@ -33,11 +33,9 @@ A live website can be found [here]()
 
 ### Project goal: Recruit members to the Anytime Gym
 
-The main goal for the website is to get noticed from its targeted users. Its users are people interested in joining a gym that is open 24/7.
-
 #### User goals:
 - Users will get a positive and inspiring impression from the landing page.
-- Users can easily navigate through out the website to find the information needed.
+- Users can easily navigate throughout the website to find the information needed.
 - User will be encouraged to sign up for a membership throughout the website. 
 
 Users should have the ability to find all the information about the gym, its services and memberships on the website, as well as contact info and inspirational pictures.
@@ -49,7 +47,7 @@ The site should be clean and straightforward, and aim to point the user to easil
 
 #### User Expectations:
 The site should provide the user with all the information needed about the gym and how to join to become a member. The site should also be easy to navigate through, 
-and should be responsive on both desktop and mobile.
+and should be responsive on both desktop, tablet and mobile.
 
 ### User Stories:
 
@@ -83,7 +81,7 @@ The wireframes are created with [Balsamiq](https://balsamiq.com/).
 
 Links to view the wireframes:
 
-- [Wireframes]()
+- [Wireframes](https://github.com/emiberndt/User-Centric-Frontend-Project---AnytimeGym/blob/master/wireframes.pdf)
 
 You will see differences to the finished website. As I went on to developed the site 
 there were certain aspects I thought I could improve from the original idea, to make it more in sync with my user stories.
