@@ -2,12 +2,13 @@ html, body {
     height: 100%;
     font-family: 'Bebas Neue', cursive;
     color: #fafafa;
-
+    
 }
 
 body {
     background-color: black;
     margin-top: 54px;
+
 }
 
 .padding {
@@ -21,6 +22,17 @@ body {
     padding-top: 50px;
 }
 
+p {
+    font-size: 150%;
+
+}
+
+
+/*About*/
+
+.about-info {
+    padding-bottom: 80px;
+}
 
 /*Image Carousel*/
 
@@ -36,12 +48,11 @@ body {
     text-shadow: 5px 5px 5px #343a40;
 }
 
-
 /*Memberships*/
 
 .card {
     background-color: transparent;
-    border-style: none;
+
 }
 
 .membership h1 {
