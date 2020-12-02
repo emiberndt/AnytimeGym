@@ -185,29 +185,39 @@ On each image-slide there is also a button for the user to click to be able to s
 
 # Testing
 
+### Automated Testing 
+
 #### Google Developer Tools 
 
-Google Developer tools helped me identify any flagged errors. 
+I used Google Developer tools to help identify any flagged errors. A handy feature is the audit tool, and it alerted me that I had to compress my images even further. 
 
-It also has the responsive feature, which helped to be able to see what the site looks like 
-on multiple devices, and help achive the user experience.
+As well as this, the developer tool also has a responsive feature. It tells you how your site looks across multiple devices, including a 4k screen. This was insightful as I decided to use containers to ensure my site looked good on larger screens. I also made the navbar and footer to stretch across the width of the device. This is to enhance the user experience. 
+
+Also, I found there was an issue with my portfolio and skills section when I viewed my site on mobile. I realised the shadow effect by Bootstrap was causing my section to go beyond the container. I fixed this using media queries ensuring alignment was achieved. 
 
 #### Responsive Tools
 
 [Am I Responsive](http://ami.responsivedesign.is/) 
+[Responsinator](https://www.responsinator.com/) 
 
-### Manual Testing 
+#### W3C Validator Tools
 
-The site has been tested in Google Chrome as well as Safari. 
+To help validate my HTML and CSS, I used W3C validator tools to ensure my code was clean. I regularly checked if my code was cleared from any errors after each section was created. 
 
-I have tested on the following devices:
-- iPhone 6/7/8
-- iPhone 6/7/8 Plus
-- iPhone X 
-- iPad
-- iPad Pro
-- MacBook
-- iMac
+Here are a couple of errors flagged and rectified:
+- Element `<div>` not allowed as a child of element `<button>` in this context. I rectified this by replacing `<div>` with a `<span>`and gave it a property of display:block. 
+- Image elements must have an alt attribute. I rectified this by giving an alt attribute. I realised I need to get into the habit of adding this as soon as I add an image. I understand the importance for accessibility purposes. 
+- Section lacks heading. I used `<p>` tag and used Bootstrap's h4 class to style headings. I instead replaced the `<p>` and used `<h4>`. 
+- Element `<span>` not allowed as child of element `<ul>` in this context - this was referring to the education and experience section. I realised I was nesting my list items incorrectly. 
+
+I have tested my site on Safari, and Google Chrome and the website looks fine and works as intended. I have also tested on the following devices:
+- iPhone X
+- iPhone XR
+- iPhone 6 plus
+- Samsung Galaxy 
+- Desktop
+- Macbook Pro
+- iPad 
 
 # Deployment
 
