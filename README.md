@@ -81,7 +81,7 @@ The wireframes are created with [Balsamiq](https://balsamiq.com/).
 
 Links to view the wireframes:
 
-- [Wireframes](https://github.com/emiberndt/User-Centric-Frontend-Project---AnytimeGym/blob/master/wireframes.pdf)
+- [Wireframes](https://github.com/emiberndt/User-Centric-Frontend-Project---AnytimeGym/blob/master/CentricFrontendWireframes.pdf)
 
 You will see differences to the finished website. As I went on to developed the site 
 there were certain aspects I thought I could improve from the original idea, to make it more in sync with my user stories.
