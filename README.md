@@ -11,7 +11,7 @@ A HTML5, CSS3 & Bootstrap website.
 
 A live website can be found [here](https://emiberndt.github.io/User-Centric-Frontend-Project---AnytimeGym/)
 
-![Mockup](/assets/images/mockup.png)
+![Mockup](assets/images/mockup.png)
 
 
 # Table of Contents
@@ -189,35 +189,71 @@ On each image-slide there is also a button for the user to click to be able to s
 
 #### Google Developer Tools 
 
-I used Google Developer tools to help identify any flagged errors. A handy feature is the audit tool, and it alerted me that I had to compress my images even further. 
+I used Google Developer tools to help identify any errors, aswell as testing its responsive features. 
 
-As well as this, the developer tool also has a responsive feature. It tells you how your site looks across multiple devices, including a 4k screen. This was insightful as I decided to use containers to ensure my site looked good on larger screens. I also made the navbar and footer to stretch across the width of the device. This is to enhance the user experience. 
-
-Also, I found there was an issue with my portfolio and skills section when I viewed my site on mobile. I realised the shadow effect by Bootstrap was causing my section to go beyond the container. I fixed this using media queries ensuring alignment was achieved. 
+No issues were found and the responsiveness works nicely.
 
 #### Responsive Tools
 
+I have tested my site on Safari, and Google Chrome and the site looks like it was intended to do. 
+
 [Am I Responsive](http://ami.responsivedesign.is/) 
-[Responsinator](https://www.responsinator.com/) 
 
-#### W3C Validator Tools
+Tested on desktop, notebook, tablet, and mobile.
 
-To help validate my HTML and CSS, I used W3C validator tools to ensure my code was clean. I regularly checked if my code was cleared from any errors after each section was created. 
+This is where I created the mockup for the site.
 
-Here are a couple of errors flagged and rectified:
-- Element `<div>` not allowed as a child of element `<button>` in this context. I rectified this by replacing `<div>` with a `<span>`and gave it a property of display:block. 
-- Image elements must have an alt attribute. I rectified this by giving an alt attribute. I realised I need to get into the habit of adding this as soon as I add an image. I understand the importance for accessibility purposes. 
-- Section lacks heading. I used `<p>` tag and used Bootstrap's h4 class to style headings. I instead replaced the `<p>` and used `<h4>`. 
-- Element `<span>` not allowed as child of element `<ul>` in this context - this was referring to the education and experience section. I realised I was nesting my list items incorrectly. 
+[Responsive Design Checker](https://responsivedesignchecker.com/) 
 
-I have tested my site on Safari, and Google Chrome and the website looks fine and works as intended. I have also tested on the following devices:
-- iPhone X
-- iPhone XR
-- iPhone 6 plus
-- Samsung Galaxy 
-- Desktop
-- Macbook Pro
-- iPad 
+Here I was able to test in a more detailed manner how the site would function on a number of different devices:
+
+- Desktop 24"/23"/22"/20"/19"
+- Notebook 15"/13"/10"
+- Apple iPad mini/Pro/Retina
+- Amazon Kindle Fire/Fire HD
+- Samsung Galaxy Tab 10
+- Apple Iphone 6/6s/7/6s Plus/7 Plus
+- Samsung Galaxy S5/S6/S7
+- Sony Xperia Z2/Z3
+
+#### Validator Tools
+
+To help validate my HTML and CSS.
+
+HTML:
+[W3C Validator](https://validator.w3.org/)
+
+Two errors occur:
+- Error: Bad value 100% for attribute width on element video: Expected a digit but saw % instead. From line 339, column 9; to line 339, column 37
+
+    video width="100%" controls
+
+    I did however found that this error is a necessity for the video to be able to be responsive.
+
+- Error: The value of the for attribute of the label element must be the ID of a non-hidden form control.
+
+    From line 439, column 33; to line 439, column 54
+
+    label for="ccnumber"
+
+    This was also an error that I found was necessary. I took the layout of the payment form from [BBBootstrap Team](https://bbbootstrap.com/snippets/simple-payment-credit-card-form-41641728), which works perfectly as it is. When trying to fix the error the form will not line up as it should. The label for is necessary for the form to align and look nice and neat.
+
+
+CSS: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+Two errors occur:
+
+- 6	abbr[data-original-title], abbr[title]	Property text-decoration-skip-ink doesn't exist : none
+
+- 6	.accordion	Property overflow-anchor doesn't exist : none
+
+    This is something that does not exist in my CSS file, so I don't understand how this even can be detected here. I therefore decided to use a different CSS validator to see if I would get the same errors.
+
+CSS [Code Beautify](https://codebeautify.org/cssvalidate)
+
+No errors occur when I run the code in this validator.
+
+
 
 # Deployment
 
@@ -253,11 +289,6 @@ GitHub Pages:
 #### Media Sources
 
 Images
-- Background (index.html)
-
-  By Ivan Samkov
-  https://www.pexels.com/photo/black-punching-bag-4162449/  
-
 - Carousel
 
   By Luis Vidal
