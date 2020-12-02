@@ -2,6 +2,7 @@ html, body {
     color: #fafafa;  
     font-family: 'Bebas Neue', cursive;
     height: 100%;
+    width: 100%
     
     
 }
@@ -30,12 +31,6 @@ p {
 }
 
 
-/*About*/
-
-.about-info {
-    padding-bottom: 80px;
-}
-
 /*Image Carousel*/
 
 .carousel-caption {
@@ -49,6 +44,12 @@ p {
 
 .carousel-caption h2 {
     text-shadow: 5px 5px 5px #343a40;
+}
+
+/*About*/
+
+.about-info {
+    padding-bottom: 80px;
 }
 
 
