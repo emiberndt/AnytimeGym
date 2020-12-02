@@ -1,7 +1,8 @@
 html, body {
-    height: 100%;
+    color: #fafafa;  
     font-family: 'Bebas Neue', cursive;
-    color: #fafafa;
+    height: 100%;
+    
     
 }
 
@@ -12,9 +13,10 @@ body {
 }
 
 .padding {
+    margin: 0 auto;
     padding-bottom: 50px;
     padding-top: 30px;
-    margin: 0 auto;
+    
    
 }
 
@@ -37,16 +39,18 @@ p {
 /*Image Carousel*/
 
 .carousel-caption {
+    padding-bottom: 30px;
     position: absolute;
     text-align: center;
     transform: translateY(-50%);
-    padding-bottom: 30px;
+    
     
 }
 
-.carousel-caption h1 {
+.carousel-caption h2 {
     text-shadow: 5px 5px 5px #343a40;
 }
+
 
 /*Memberships*/
 
@@ -56,8 +60,8 @@ p {
 }
 
 .membership h1 {
-    font-family: 'Permanent Marker', cursive;
     color: orange;
+    font-family: 'Permanent Marker', cursive;
     font-size: 70px;
     text-shadow: 2px 2px 2px #343a40;
 }
@@ -67,8 +71,9 @@ p {
 
 .workout-class img {
     border-radius: 50%;
-    width: 60%;
     height: auto;
+    width: 60%;
+    
     
 }
 
@@ -76,9 +81,10 @@ p {
 /*Map*/
 
 .googlemap {
-    width: 100%;
     margin-bottom: 80px;
-    padding: 70px;
+    padding: 60px;
+    width: 100%;
+    
 
 }
 
@@ -86,37 +92,39 @@ p {
 /*Join*/
 
 section {
+    border: 1px solid green;
     margin: auto;
     margin-bottom: 20px;
-    width: 90%;
-    border: 1px solid green;
     padding: 30px;
+    width: 90%;
 }
 
 /*Payment*/
 
 .submit-button {
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    
 }
 
 
 /*Footer*/
 
 footer {
-    background-color: #343a40;
     padding-top: 30px;
+    background-color: #343a40;
     color: #fafafa
+    
 }
 
 footer i {
     color: #fafafa;
-    size: 300%;
+    font-size: 300%;
     padding: 10px;
 }
 
-hr.line {
+.line {
     border-top: 1px solid #fafafa;
     width: 50%;
 
@@ -137,9 +145,10 @@ hr.line {
 
 .app-icons i {
     color: #fafafa;
-    text-shadow: 5px 5px 5px #343a40;
     font-size: 100px;
     margin: 10px;
+    text-shadow: 5px 5px 5px #343a40;
+    
 }
 
 
