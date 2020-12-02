@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     width: 100%
     
-    
 }
 
 body {
@@ -18,17 +17,24 @@ body {
     padding-bottom: 50px;
     padding-top: 30px;
     
-   
 }
 
 .display-4 {
     padding-top: 50px;
+
 }
 
 p {
     font-size: 150%;
 
 }
+
+i {
+    font-size: 300%;
+    color: green;
+    
+}
+
 
 
 /*Image Carousel*/
@@ -39,17 +45,19 @@ p {
     text-align: center;
     transform: translateY(-50%);
     
-    
 }
 
-.carousel-caption h2 {
+.carousel-caption h1 {
     text-shadow: 5px 5px 5px #343a40;
+
 }
+
 
 /*About*/
 
 .about-info {
     padding-bottom: 80px;
+
 }
 
 
@@ -65,6 +73,7 @@ p {
     font-family: 'Permanent Marker', cursive;
     font-size: 70px;
     text-shadow: 2px 2px 2px #343a40;
+
 }
 
 
@@ -74,7 +83,6 @@ p {
     border-radius: 50%;
     height: auto;
     width: 60%;
-    
     
 }
 
@@ -86,7 +94,6 @@ p {
     padding: 60px;
     width: 100%;
     
-
 }
 
 
@@ -98,7 +105,9 @@ section {
     margin-bottom: 20px;
     padding: 30px;
     width: 90%;
+
 }
+
 
 /*Payment*/
 
@@ -123,6 +132,7 @@ footer i {
     color: #fafafa;
     font-size: 300%;
     padding: 10px;
+
 }
 
 .line {
@@ -137,6 +147,7 @@ footer i {
 .submit {
     margin-top: 60px;
     text-align: center;
+
 }
 
 .submit div {
