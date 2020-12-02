@@ -185,8 +185,6 @@ On each image-slide there is also a button for the user to click to be able to s
 
 # Testing
 
-### Automated Testing 
-
 #### Google Developer Tools 
 
 I used Google Developer tools to help identify any errors, aswell as testing its responsive features. 
